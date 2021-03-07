@@ -7,6 +7,4 @@ set(PROJECT_NAME CMake_tutorial)
 
 project(${PROJECT_NAME} VERSION 1.0.0)
 
-#include_directories(src)
-
 add_subdirectory(src)
