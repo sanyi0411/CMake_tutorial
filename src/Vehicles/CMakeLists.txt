@@ -1,0 +1,1 @@
+add_library(Vehicles Vehicle.h Vehicle.cpp)

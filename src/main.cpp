@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Animal.h"
+#include "Vehicle.h"
 
 int main()
 {   
@@ -14,6 +15,11 @@ int main()
     Max.makeSound();
     Zazu.makeSound();
     Nemo.makeSound();
+
+    Vehicle myCar(car);
+    std::cout << "Seats: " << myCar.getNumberOfPassengers() << std::endl;
+    std::cout << "Fuel: " << myCar.getFuelType() << std::endl;
+
 
     return 0;
 }
